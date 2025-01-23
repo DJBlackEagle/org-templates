@@ -154,3 +154,7 @@ List of the template variables:
 | {TPL^EMAIL_NAME_SECURITY}      | My name                                                            | The e-mail address for reporting security issues related to this project and repository. |
 | {TPL^EMAIL_ADDRESS_SECURITY}   | test@localhost.local                                               | The e-mail address for reporting security issues related to this project and repository. |
 | {TPL^USER_CODE_OWNER}          | @MyAccount                                                         | The 'Code Owner' of the repository (full).                                               |
+| {TPL^PROJECT_OWNER_USERNAME}   | MyAccount                                                          | The username of the project owner.                                                       |
+| {TPL^PROJECT_OWNER_NAME}       | Max Mustermann                                                     | The owner name of the project.                                                           |
+| {TPL^PROJECT_OWNER_EMAIL}      | mustermann@localhost.local                                         | The The owner email address.                                                             |
+| {TPL^DATE_CURRENT_YEAR}        | 2025                                                               | The current year (like for Copyright).                                                   |
