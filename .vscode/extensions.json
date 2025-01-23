@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "redhat.vscode-yaml",
+    "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one",
+    "crystal-spider.jsdoc-generator",
+    "oderwat.indent-rainbow",
+    "shakram02.bash-beautify",
+    "timonwong.shellcheck",
+    "mechatroner.rainbow-csv",
+    "rangav.vscode-thunder-client",
+  ]
+}
