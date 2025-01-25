@@ -1,7 +1,6 @@
 name: 📉 Regression
 description: Report a regression in functionality, performance, or behavior.
-title: '[REGRESSION]: '
-labels: ['needs triage']
+labels: ["needs triage"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 body:
@@ -81,14 +80,14 @@ body:
         Which version of are you using?
         **Tip**: Make sure that all of yours dependencies are in sync!
       placeholder: 2.1.1
-        
+
   - type: textarea
     id: issue_details
     attributes:
       label: 📝 Detailed Description
       description: Describe the current behavior that is incorrect or has regressed.
       placeholder: E.g., "The API endpoint `/users` returns a 500 error after the update."
-      
+
   - type: textarea
     id: expected_behavior
     attributes:
@@ -211,7 +210,7 @@ body:
     attributes:
       value: |
         # ℹ️ Additional information
-        
+
   - type: dropdown
     id: ide
     attributes:
@@ -226,7 +225,7 @@ body:
         - "WebStorm"
         - "Other"
       default: 6
-        
+
   - type: textarea
     id: additional_context
     attributes:

@@ -1,7 +1,6 @@
 name: 🚀 Feature Request
 description: Suggest a new feature or improvement for the project.
-title: '[FEAT]: '
-labels: ['feature']
+labels: ["feature"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 body:
@@ -65,8 +64,8 @@ body:
     validations:
       required: true
     attributes:
-      label: 'Is your feature request related to a problem? Please describe it'
-      description: 'A clear and concise description of what the problem is'
+      label: Is your feature request related to a problem? Please describe it
+      description: "A clear and concise description of what the problem is"
       placeholder: |
         I have an issue when ...
 
@@ -74,18 +73,18 @@ body:
     validations:
       required: true
     attributes:
-      label: "Describe the solution you'd like"
-      description: 'A clear and concise description of what you want to happen. Add any considered drawbacks'
+      label: Describe the solution you'd like
+      description: "A clear and concise description of what you want to happen. Add any considered drawbacks"
 
   - type: textarea
     attributes:
-      label: 'Teachability, documentation, adoption, migration strategy'
-      description: 'If you can, explain how users will be able to use this and possibly write out a version the docs. Maybe a screenshot or design?'
+      label: Teachability, documentation, adoption, migration strategy
+      description: "If you can, explain how users will be able to use this and possibly write out a version the docs. Maybe a screenshot or design?"
 
   - type: textarea
     attributes:
-      label: 'What is the motivation / use case for changing the behavior?'
-      description: 'Describe the motivation or the concrete use case'
+      label: What is the motivation / use case for changing the behavior?
+      description: "Describe the motivation or the concrete use case"
 
   - type: markdown
     attributes:
@@ -95,7 +94,7 @@ body:
     attributes:
       value: |
         # ℹ️ Additional information
-        
+
   - type: textarea
     id: program_flowchart
     attributes:
@@ -107,7 +106,7 @@ body:
         - **Images:** Copy and paste an image directly into this field while writing the issue.
         - **PDFs:** Drag and drop a PDF file directly into this field while writing the issue.
       placeholder: E.g., User clicks button → Data is validated → Response is displayed.
-        
+
   - type: textarea
     id: additional_context
     attributes:

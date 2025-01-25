@@ -1,7 +1,6 @@
 name: 🛠️ Repository Management
 description: Report an issue or suggest an improvement related to repository configuration, structure, or workflows.
-title: '[Repo Management]: '
-labels: ['repository', 'management']
+labels: ["repository", "management"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 

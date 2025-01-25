@@ -1,7 +1,6 @@
 name: 📋 Task
 description: Track and manage a specific task or to-do item.
-title: '[TODO]: '
-labels: ['todo']
+labels: ["todo"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 body:
@@ -60,7 +59,7 @@ body:
         - ❕ Medium - Task is useful but not time-critical
         - ✅ Low - Task is nice to have but can wait
       default: 2
-        
+
   - type: textarea
     id: issue_details
     attributes:
@@ -72,7 +71,7 @@ body:
         Tasks:
         - [ ] Add something
         - [ ] Add this thing
-      
+
   - type: textarea
     id: acceptance_criteria
     attributes:
@@ -92,7 +91,7 @@ body:
     attributes:
       value: |
         # ℹ️ Additional information
-        
+
   - type: textarea
     id: additional_context
     attributes:

@@ -1,6 +1,5 @@
 name: 🪲 Bug Report
 description: Report a bug or unexpected behavior in the project.
-title: "[BUG]: "
 labels: ["bugfix"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
@@ -207,7 +206,7 @@ body:
     attributes:
       value: |
         # ℹ️ Additional information
-        
+
   - type: dropdown
     id: ide
     attributes:
@@ -222,7 +221,7 @@ body:
         - "WebStorm"
         - "Other"
       default: 6
-        
+
   - type: textarea
     id: additional_context
     attributes:
