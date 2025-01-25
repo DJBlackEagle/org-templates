@@ -20,8 +20,7 @@ What kind of change does this PR introduce?
 [ ] Refactoring (no functional changes, no api changes)
 [ ] Build related changes
 [ ] CI related changes
-[ ] GitHub related changes
-[ ] Repository related changes
+[ ] Repository Management related changes
 [ ] Other... Please describe:
 ```
 
