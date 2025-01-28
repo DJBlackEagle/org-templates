@@ -10,6 +10,7 @@
   - [GitHub Action `micnncim/action-label-syncer`](#github-action-micnncimaction-label-syncer)
     - [Explanation configuration Settings](#explanation-configuration-settings)
     - [Explanation of the label settings](#explanation-of-the-label-settings)
+  - [Branch Rule Sets](#branch-rule-sets)
   - [Template Variables](#template-variables)
 
 ## Benefits of this repository?
@@ -120,6 +121,10 @@ Here are the key configuration settings for using the GitHub Action:
    Defaults to `true`. Specifies whether labels not defined in the YAML file should be removed from the repository.
 5. **aliases:** *(optional)*  
    An array of alternative names for a label that will be treated as substitutes for the main label.
+
+### Branch Rule Sets
+
+For detailed information about the branch rule sets, please refer to the [Branch Rule Sets Documentation](./github/branch-rulesets/README.md).
 
 ### Template Variables
 
