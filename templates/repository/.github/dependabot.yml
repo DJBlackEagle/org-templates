@@ -7,18 +7,18 @@ version: 2
 updates:
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: github-actions
-    directory: '/'
+    directory: "/"
     schedule:
-      timezone: 'Europe/Berlin'
-      interval: 'monthly'
+      timezone: "Europe/Berlin"
+      interval: "monthly"
     assignees:
-      - '{TPL^ASSIGNEE_ISSUE}'
+      - "{TPL^ASSIGNEE_ISSUE}"
     commit-message:
-      prefix: 'chore(github)'
+      prefix: "chore(github)"
     open-pull-requests-limit: 5
     labels:
-      - 'dependabot'
-      - 'github-actions'
+      - "dependabot"
+      - "github-actions"
 
   # # Maintain dependencies for npm
   # - package-ecosystem: 'npm'
