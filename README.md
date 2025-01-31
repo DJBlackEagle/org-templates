@@ -148,7 +148,6 @@ List of the template variables:
 | {TPL^URL_NEW_VULNERABILITY}    | https://localhost/MyAccount/dev-tools/security/advisories/new      | The URL of creating a new vulnerability.                                                 |
 | {TPL^PACKAGE_NAME}             | dev-tools                                                          | Package name of this project.                                                            |
 | {TPL^PACKAGE_FULLNAME}         | @MyAccount/dev-tools                                               | The full package name of this project.                                                   |
-| {TPL^PACKAGE_SCOPE}            | MyAccount                                                          | The full package name of this project.                                                   |
 | {TPL^PACKAGE_FULLNAME_MD_LINK} | myaccountdev-tools                                                 | The full package name of this project.                                                   |
 | {TPL^ASSIGNEE_ISSUE}           | MyAccount                                                          | The default assignee for new issues. It's stays in the issue template files.             |
 | {TPL^ASSIGNEE_DEPENDABOT}      | MyAccount                                                          | The default assignee, then the dependabot makes a pull request.                          |
