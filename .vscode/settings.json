@@ -5,8 +5,9 @@
     "source.fixAll": "explicit",
     "source.removeUnusedImports": "explicit"
   },
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.formatOnSaveMode": "file",
+  "editor.tabSize": 2,
   "editor.useTabStops": false,
   "files.encoding": "utf8",
   "files.eol": "\n",
@@ -22,7 +23,7 @@
     "shellscript",
     "dockerfile",
     "dotenv",
-    "gitignore",
+    "gitignore"
   ],
   "thunder-client.indentSize": 2,
   "thunder-client.jsonFileIndentSize": 2,
@@ -40,10 +41,10 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
