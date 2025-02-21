@@ -1,7 +1,7 @@
 {
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit",
-    "source.sortImports": "explicit",
+    "source.organizeImports": "never",
+    "source.sortImports": "never",
     "source.fixAll": "explicit",
     "source.removeUnusedImports": "explicit"
   },
@@ -55,6 +55,9 @@
       "strings": "off",
       "other": "off"
     }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml",
