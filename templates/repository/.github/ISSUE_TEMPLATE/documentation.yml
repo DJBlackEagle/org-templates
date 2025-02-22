@@ -2,7 +2,7 @@ name: 📚 Documentation Issue
 description: Report a documentation issue or suggest improvements.
 labels: ["documentation", "enhancement", "Issue: Documentation"]
 assignees:
-  - { TPL^ASSIGNEE_ISSUE }
+  - {TPL^ASSIGNEE_ISSUE}
 
 body:
   - type: markdown
