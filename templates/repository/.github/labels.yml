@@ -28,6 +28,15 @@
 - name: 'dependencies'
   color: 1d76db
   description: 'Change in project dependencies.'
+- name: 'refactor'
+  color: 1d76db
+  description: 'Refactoring code.'
+- name: 'revert'
+  color: fbca04
+  description: 'Reverting changes.'
+- name: 'test'
+  color: fef2c0
+  description: 'Adding or updating tests.'
 
 - name: 'in-progress'
   color: fbca04
