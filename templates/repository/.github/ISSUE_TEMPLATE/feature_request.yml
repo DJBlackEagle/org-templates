@@ -1,6 +1,6 @@
 name: 🚀 Feature Request
 description: Suggest a new feature or improvement for the project.
-labels: ["feature"]
+labels: ["feature", "Issue: Feature Request"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 body:

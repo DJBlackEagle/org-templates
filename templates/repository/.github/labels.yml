@@ -101,3 +101,25 @@
 - name: 'github-actions'
   color: 8a91ad
   description: 'Created by the github-action.'
+
+- name: 'Issue: Bug'
+  color: 8a91ad
+  description: 'Report a bug or unexpected behavior in the project.'
+- name: 'Issue: Feature Request'
+  color: 8a91ad
+  description: 'Suggest a new feature or improvement for the project.'
+- name: 'Issue: Regression'
+  color: 8a91ad
+  description: 'Report a regression in functionality, performance, or behavior.'
+- name: 'Issue: Repository Management'
+  color: 8a91ad
+  description: 'Report an issue or suggest an improvement related to repository configuration, structure, or workflows.'
+- name: 'Issue: Suggestion for Improving Performance'
+  color: 8a91ad
+  description: 'Provide a suggestion to improve the performance.'
+- name: 'Issue: Task'
+  color: 8a91ad
+  description: 'Track and manage a specific task or to-do item.'
+- name: 'Issue: Documentation'
+  color: 8a91ad
+  description: 'Solely about the documentation of the project'

@@ -1,6 +1,6 @@
 name: ⚡ Suggestion for Improving Performance
 description: Provide a suggestion to improve the performance.
-labels: ["enhancement", "performance"]
+labels: ["enhancement", "performance", "Issue: Suggestion for Improving Performance"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 body:
