@@ -1,6 +1,6 @@
 name: 📉 Regression
 description: Report a regression in functionality, performance, or behavior.
-labels: ["needs triage"]
+labels: ["needs triage", "Issue: Regression"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 body:

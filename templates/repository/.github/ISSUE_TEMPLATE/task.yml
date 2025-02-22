@@ -1,6 +1,6 @@
 name: 📋 Task
 description: Track and manage a specific task or to-do item.
-labels: ["todo"]
+labels: ["todo", "Issue: Task"]
 assignees:
   - {TPL^ASSIGNEE_ISSUE}
 body:
