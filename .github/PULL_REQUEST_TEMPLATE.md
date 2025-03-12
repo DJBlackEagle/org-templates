@@ -8,8 +8,6 @@
 [ ] Documentation
 [ ] Code style update (formatting, local variables)
 [ ] Refactoring (no functional changes, no api changes)
-[ ] Build related changes
-[ ] CI related changes
 [ ] Repository Management related changes
 [ ] Other, please explain:
 ```
