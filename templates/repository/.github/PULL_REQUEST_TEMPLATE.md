@@ -46,7 +46,7 @@ Issue Number: N/A
 
 <!-- Please check the one that applies to this PR using "x". -->
 
-```
+```text
 [ ] Yes
 [ ] No
 ```
