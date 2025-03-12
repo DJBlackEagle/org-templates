@@ -7,7 +7,7 @@ Please check if your pull request fulfills the following requirements.
 - [ ] I have read the [contributing guidelines]{ TPL^URL_CONTRIBUTING }.
 - [ ] Docs have been added / updated (for bug fixes / features).
 
-## What is the purpose of this pull request? (put an "X" next to an item)
+## What is the purpose of this pull request? (put an "x" next to an item)
 
 ```text
 [ ] Bugfix

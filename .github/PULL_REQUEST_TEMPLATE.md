@@ -1,6 +1,6 @@
 # Pull request Checklist
 
-## What is the purpose of this pull request? (put an "X" next to an item)
+## What is the purpose of this pull request? (put an "x" next to an item)
 
 ```text
 [ ] Bugfix
