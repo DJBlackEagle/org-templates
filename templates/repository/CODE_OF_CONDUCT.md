@@ -17,24 +17,24 @@ diverse, inclusive, and healthy community.
 Examples of behavior that contributes to a positive environment for our
 community include:
 
--   Demonstrating empathy and kindness toward other people
--   Being respectful of differing opinions, viewpoints, and experiences
--   Giving and gracefully accepting constructive feedback
--   Accepting responsibility and apologizing to those affected by our mistakes,
-    and learning from the experience
--   Focusing on what is best not just for us as individuals, but for the overall
-    community
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes,
+  and learning from the experience
+- Focusing on what is best not just for us as individuals, but for the overall
+  community
 
 Examples of unacceptable behavior include:
 
--   The use of sexualized language or imagery, and sexual attention or advances of
-    any kind
--   Trolling, insulting or derogatory comments, and personal or political attacks
--   Public or private harassment
--   Publishing others' private information, such as a physical or email address,
-    without their explicit permission
--   Other conduct which could reasonably be considered inappropriate in a
-    professional setting
+- The use of sexualized language or imagery, and sexual attention or advances of
+  any kind
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical or email address,
+  without their explicit permission
+- Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
 ## Enforcement Responsibilities
 
@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[{TPL^EMAIL_NAME_COD}][REF_INTERN_EMAIL_ADDRESS_COD].
+[{ TPL^EMAIL_NAME_COD }][REF_INTERN_EMAIL_ADDRESS_COD].
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -130,22 +130,26 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
-
-[REF_INTERN_URL_GIT]: {TPL^URL_GIT}
-[REF_INTERN_URL_CONTRIBUTING]: {TPL^URL_CONTRIBUTING}
-[REF_INTERN_URL_README]: {TPL^URL_README}
-[REF_INTERN_URL_CHANGELOG]: {TPL^URL_CHANGELOG}
-[REF_INTERN_URL_CODE_OF_CONDUCT]: {TPL^URL_CODE_OF_CONDUCT}
-[REF_INTERN_URL_LICENSE]: {TPL^URL_LICENSE}
-[REF_INTERN_URL_SECURITY]: {TPL^URL_SECURITY}
-[REF_INTERN_URL_ISSUES]: {TPL^URL_ISSUES}
-[REF_INTERN_URL_NEW_ISSUE]: {TPL^URL_NEW_ISSUE}
-[REF_INTERN_URL_PULLREQUEST]: {TPL^URL_PULLREQUEST}
-[REF_INTERN_URL_COMMITS]: {TPL^URL_COMMITS}
-[REF_INTERN_URL_VULNERABILITY]: {TPL^URL_VULNERABILITY}
-[REF_INTERN_URL_NEW_VULNERABILITY]: {TPL^URL_NEW_VULNERABILITY}
-[REF_INTERN_EMAIL_ADDRESS_COD]: {TPL^EMAIL_ADDRESS_COD}
-[REF_INTERN_EMAIL_ADDRESS_OWNER]: {TPL^EMAIL_ADDRESS_OWNER}
-[REF_INTERN_EMAIL_ADDRESS_SECURITY]: {TPL^EMAIL_ADDRESS_SECURITY}
-[REF_EXTERN_COMMIT_MESSAGE_FORMAT]: https://www.conventionalcommits.org/en/v1.0.0/
-[REF_EXTERN_CONTRIBUTING_MD]: https://contributing.md/generator
+[REF_INTERN_URL_GIT]: { TPL^URL_GIT }
+[REF_INTERN_URL_CONTRIBUTING]: { TPL^URL_CONTRIBUTING }
+[REF_INTERN_URL_README]: { TPL^URL_README }
+[REF_INTERN_URL_CHANGELOG]: { TPL^URL_CHANGELOG }
+[REF_INTERN_URL_CODE_OF_CONDUCT]: { TPL^URL_CODE_OF_CONDUCT }
+[REF_INTERN_URL_LICENSE]: { TPL^URL_LICENSE }
+[REF_INTERN_URL_SECURITY]: { TPL^URL_SECURITY }
+[REF_INTERN_URL_ISSUES]: { TPL^URL_ISSUE }
+[REF_INTERN_URL_NEW_ISSUE]: { TPL^URL_ISSUE_NEW }
+[REF_INTERN_URL_PULLREQUEST]: { TPL^URL_PULLREQUEST }
+[REF_INTERN_URL_COMMITS]: { TPL^URL_COMMITS }
+[REF_INTERN_URL_VULNERABILITY]: { TPL^URL_VULNERABILITY }
+[REF_INTERN_URL_NEW_VULNERABILITY]: { TPL^URL_VULNERABILITY_NEW }
+[REF_INTERN_URL_ACTIONS]: { TPL^URL_ACTIONS }
+[REF_INTERN_URL_WORKFLOW_CODEQL]: { TPL^URL_WORKFLOW_CODEQL }
+[REF_INTERN_URL_WORKFLOW_CI]: { TPL^URL_WORKFLOW_CI }
+[REF_INTERN_EMAIL_ADDRESS_COD]: { TPL^EMAIL_ADDRESS_COD }
+[REF_INTERN_EMAIL_ADDRESS_OWNER]: { TPL^EMAIL_ADDRESS_OWNER }
+[REF_INTERN_EMAIL_ADDRESS_SECURITY]: { TPL^EMAIL_ADDRESS_SECURITY }
+[REF_INTERN_URL_NPMJS_PACKAGE]: { TPL^URL_NPMJS_PACKAGE }
+[REF_INTERN_URL_CODESTYLE]: { TPL^URL_CODESTYLE }
+[REF_INTERN_URL_COMMIT_MESSAGE_FORMAT]: <https://www.conventionalcommits.org/en/v1.0.0/>
+[REF_INTERN_URL_CONTRIBUTING_GENERATOR]: <https://contributing.md/generator>

@@ -1,36 +1,33 @@
-## PR Checklist
+# Pull request Checklist
 
-Please check if your PR fulfills the following requirements:
+## What is the purpose of this pull request? (put an "x" next to an item)
 
-```
-[ ] The commit message follows our guidelines: {TPL^URL_CONTRIBUTING}
-[ ] Docs have been added / updated (for bug fixes / features)
-```
-
-## PR Type
-
-What kind of change does this PR introduce?
-
-<!-- Please check the one that applies to this PR using "x". -->
-
-```
+```text
 [ ] Bugfix
 [ ] Feature
+[ ] Documentation
 [ ] Code style update (formatting, local variables)
 [ ] Refactoring (no functional changes, no api changes)
-[ ] Build related changes
-[ ] CI related changes
 [ ] Repository Management related changes
-[ ] Other... Please describe:
+[ ] Other, please explain:
 ```
 
-## What is the current behavior?
+<!--
+    Please ensure your pull request is ready:
+
+    - Include tests for this change
+    - Update documentation for this change (if appropriate)
+-->
+
+<!--
+    The following is required for all pull requests:
+-->
+
+## What changes did you make? (Give an overview)
 
 <!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
 
-Issue Number: N/A
-
-## What is the new behavior?
+## Is there anything you'd like reviewers to focus on?
 
 <!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
 
@@ -38,11 +35,7 @@ Issue Number: N/A
 
 <!-- Please check the one that applies to this PR using "x". -->
 
-```
+```text
 [ ] Yes
 [ ] No
 ```
-
-<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
-
-## Other information

@@ -23,13 +23,3 @@ jobs:
           manifest: .github/labels.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: 🆕 Create issue
-        uses: imjohnbo/issue-bot@v3
-        with:
-          assignees: '{TPL^ASSIGNEE_ISSUE}'
-          labels: 'github-actions, todo'
-          pinned: true
-          close-previous: true
-          linked-comments: true
-          title: '[TODO] Lables was synced'
-          body: 'Check issues and pull requests, after the lables was synced.'
