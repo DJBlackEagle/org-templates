@@ -1,8 +1,9 @@
 name: ⚡ Suggestion for Improving Performance
 description: Provide a suggestion to improve the performance.
-labels: ["enhancement", "performance", "Issue: Suggestion for Improving Performance"]
+labels:
+  ['enhancement', 'performance', 'Issue: Suggestion for Improving Performance']
 assignees:
-  - {TPL^ASSIGNEE_ISSUE}
+  - { TPL^ASSIGNEE_ISSUE }
 body:
   - type: markdown
     attributes:
@@ -14,7 +15,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -36,12 +37,12 @@ body:
       label: ⚖️ Code of Conduct
       description: The Code of Conduct helps create a safe space for everyone. We require that everyone agrees to it.
       options:
-        - label: I agree to follow this project's [Code of Conduct]({TPL^URL_CODE_OF_CONDUCT})
+        - label: I agree to follow this project's [Code of Conduct]({ TPL^URL_CODE_OF_CONDUCT })
           required: true
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -104,7 +105,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -149,7 +150,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -190,7 +191,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -217,13 +218,13 @@ body:
       label: 🖥️ IDE (Development Environment)
       description: Which IDE were you using?
       options:
-        - "Eclipse"
-        - "IntelliJ IDEA"
-        - "NetBeans"
-        - "Visual Studio Code"
-        - "Visual Studio"
-        - "WebStorm"
-        - "Other"
+        - 'Eclipse'
+        - 'IntelliJ IDEA'
+        - 'NetBeans'
+        - 'Visual Studio Code'
+        - 'Visual Studio'
+        - 'WebStorm'
+        - 'Other'
       default: 6
 
   - type: textarea
@@ -235,7 +236,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -251,7 +252,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:

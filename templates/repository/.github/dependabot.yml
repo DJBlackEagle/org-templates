@@ -11,7 +11,7 @@ updates:
       timezone: 'Europe/Berlin'
       interval: 'monthly'
     assignees:
-      - '{TPL^ASSIGNEE_ISSUE}'
+      - '{ TPL^ASSIGNEE_ISSUE }'
     commit-message:
       prefix: 'chore(github)'
     open-pull-requests-limit: 10
@@ -25,10 +25,10 @@ updates:
   #     timezone: 'Europe/Berlin'
   #     interval: 'monthly'
   #   assignees:
-  #     - '{TPL^ASSIGNEE_ISSUE}'
+  #     - '{ TPL^ASSIGNEE_DEPENDABOT }'
   #   commit-message:
   #     prefix: 'chore(deps)'
-  #   open-pull-requests-limit: 20
+  #   open-pull-requests-limit: 10
   #   labels:
   #     - 'dependabot'
   #     - 'dependencies'

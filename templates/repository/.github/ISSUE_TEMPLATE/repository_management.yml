@@ -1,8 +1,8 @@
 name: 🛠️ Repository Management
 description: Report an issue or suggest an improvement related to repository configuration, structure, or workflows.
-labels: ["repository", "management", "Issue: Repository Management"]
+labels: ['repository', 'management', 'Issue: Repository Management']
 assignees:
-  - {TPL^ASSIGNEE_ISSUE}
+  - { TPL^ASSIGNEE_ISSUE }
 
 body:
   - type: markdown
@@ -15,7 +15,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -37,12 +37,12 @@ body:
       label: ⚖️ Code of Conduct
       description: The Code of Conduct helps create a safe space for everyone. We require that everyone agrees to it.
       options:
-        - label: I agree to follow this project's [Code of Conduct]({TPL^URL_CODE_OF_CONDUCT})
+        - label: I agree to follow this project's [Code of Conduct]({ TPL^URL_CODE_OF_CONDUCT })
           required: true
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -96,7 +96,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -112,7 +112,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -128,7 +128,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:

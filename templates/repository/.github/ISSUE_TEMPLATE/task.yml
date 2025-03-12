@@ -1,8 +1,8 @@
 name: 📋 Task
 description: Track and manage a specific task or to-do item.
-labels: ["todo", "Issue: Task"]
+labels: ['todo', 'Issue: Task']
 assignees:
-  - {TPL^ASSIGNEE_ISSUE}
+  - { TPL^ASSIGNEE_ISSUE }
 body:
   - type: markdown
     attributes:
@@ -14,7 +14,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -36,12 +36,12 @@ body:
       label: ⚖️ Code of Conduct
       description: The Code of Conduct helps create a safe space for everyone. We require that everyone agrees to it.
       options:
-        - label: I agree to follow this project's [Code of Conduct]({TPL^URL_CODE_OF_CONDUCT})
+        - label: I agree to follow this project's [Code of Conduct]({ TPL^URL_CODE_OF_CONDUCT })
           required: true
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -85,7 +85,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -101,7 +101,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
@@ -117,7 +117,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "&nbsp;"
+      value: '&nbsp;'
 
   - type: markdown
     attributes:
