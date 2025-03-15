@@ -28,6 +28,7 @@ Clone via SSH
 
 ```sh
 git clone git@github.com:DJBlackEagle/org-templates.git
+git clone git@github.com:DJBlackEagle/org-templates.git
 ```
 
 Clone via HTTPS
@@ -170,7 +171,7 @@ List of the template variables:
 | { TPL^URL_MD_LICENSE }              | <https://localhost/MyAccount/my-new-project/blob/main/LICENSE.md>                | The URL to the license file.                                                             |
 | { TPL^URL_MD_README }               | <https://localhost/MyAccount/my-new-project/blob/main/README.md>                 | The URL to the readme.                                                                   |
 | { TPL^URL_MD_SECURITY }             | <https://localhost/MyAccount/my-new-project/blob/main/SECURITY.md>               | The URL to the security file.                                                            |
-| { TPL^URL_NPMJS_PACKAGE }           | <https://www.npmjs.com/package/@djblackeagle/my-new-project>                     | Ther URL to the NPM package on npm.                                                      |
+| { TPL^URL_NPMJS_PACKAGE }           | <https://www.npmjs.com/package/scope/my-new-project>                             | Ther URL to the NPM package on npm.                                                      |
 | { TPL^URL_PULLREQUEST }             | <https://localhost/MyAccount/my-new-project/pulls>                               | The URL to the pull requests.                                                            |
 | { TPL^URL_VULNERABILITY }           | <https://localhost/MyAccount/my-new-project/security>                            | The URL to the vulnerability.                                                            |
 | { TPL^URL_VULNERABILITY_NEW }       | <https://localhost/MyAccount/my-new-project/security/advisories/new>             | The URL of creating a new vulnerability.                                                 |
