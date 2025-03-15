@@ -28,6 +28,7 @@ Clone via SSH
 
 ```sh
 git clone git@github.com:DJBlackEagle/org-templates.git
+git clone git@github.com:DJBlackEagle/org-templates.git
 ```
 
 Clone via HTTPS
