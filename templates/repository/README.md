@@ -7,14 +7,12 @@
 [![Build Status]({ TPL^URL_GIT }/workflows/Code%20quality%20and%20tests/badge.svg)][REF_INTERN_URL_WORKFLOW_CQAT]
 [![Code Style](https://img.shields.io/badge/code_style-{ TPL^PACKAGE_FULLNAME_MINUSMINUS }-blue.svg)][REF_INTERN_URL_CODESTYLE]
 
-**A unified configuration to enforce consistent code style across your JavaScript
-and TypeScript projects, using ESLint, Prettier, and Commitlint.**
+# ***Here comes a short description of the package. 😊*** <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
 
 - [Benefits](#benefits)
 - [Getting Started](#getting-started)
-  - [Requirements](#requirements)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
 - [Security](#security)
@@ -25,24 +23,12 @@ and TypeScript projects, using ESLint, Prettier, and Commitlint.**
 
 Using `{ TPL^PACKAGE_FULLNAME }` offers several advantages for your projects:
 
-- **Consistency:** Enforce a unified code style across all your JavaScript and
-  TypeScript projects.
-- **Readability:** Improve code readability and maintainability with standardized
-  formatting.
-- **Efficiency:** Save time by automating code style enforcement with ESLint and
-  Prettier.
-- **Collaboration:** Facilitate team collaboration with consistent code and
-  commit messages.
-- **Quality:** Improve code quality by catching potential issues early with ESLint.
-- **Standardized Commits:** Ensure clear and informative commit messages with
-  Commitlint, following [Conventional Commits][REF_INTERN_URL_COMMIT_MESSAGE_FORMAT].
+# ***Describe the benefits as a list. 😊*** <!-- omit in toc -->
 
 ## Getting Started
 
 This section will guide you through setting up and configuring `{ TPL^PACKAGE_FULLNAME }`
 in your project.
-
-### Requirements
 
 ## Contributing
 
