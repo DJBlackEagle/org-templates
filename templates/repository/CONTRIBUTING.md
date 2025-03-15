@@ -22,21 +22,22 @@ All types of contributions are encouraged and valued. See the 'Table of Contents
   - [Improving The Documentation](#improving-the-documentation)
 - [Styleguides](#styleguides)
   - [Commit Messages](#commit-messages)
+- [Additional Resources](#additional-resources)
 
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[Code of Conduct][REF_INTERN_URL_CODE_OF_CONDUCT].
+[Code of Conduct][REF_INTERN_FILE_MD_CODE_OF_CONDUCT].
 
 ## I Have a Question
 
-> If you want to ask a question, we assume that you have read the available [Documentation][REF_INTERN_URL_README].
+> If you want to ask a question, we assume that you have read the available [Documentation][REF_INTERN_FILE_MD_README].
 
-Before you ask a question, it is best to search for existing [Issues][REF_INTERN_URL_ISSUES] that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+Before you ask a question, it is best to search for existing [Issues][REF_INTERN_URL_ISSUE_LIST] that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
 
 If you then still feel the need to ask a question and need clarification, we recommend the following:
 
-- Open an [Issue][REF_INTERN_URL_NEW_ISSUE].
+- Open an [Issue][REF_INTERN_URL_ISSUE_NEW].
 - Provide as much context as you can about what you're running into.
 - Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
 
@@ -70,8 +71,8 @@ Depending on how large the project is, you may want to outsource the questioning
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
 - Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation][REF_INTERN_URL_README]. If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker][REF_INTERN_URL_NEW_ISSUE].
+- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation][REF_INTERN_FILE_MD_README]. If you are looking for support, you might want to check [this section](#i-have-a-question)).
+- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker][REF_INTERN_URL_ISSUE_NEW].
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
   - Stack trace (Traceback)
@@ -88,7 +89,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
 
-- Open an [Issue][REF_INTERN_URL_NEW_ISSUE]. (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
+- Open an [Issue][REF_INTERN_URL_ISSUE_NEW]. (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
 - Explain the behavior you would expect and the actual behavior.
 - Please provide as much context as possible and describe the _reproduction steps_ that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
 - Provide the information you collected in the previous section.
@@ -108,13 +109,13 @@ This section guides you through submitting an enhancement suggestion for { TPL^P
 #### Before Submitting an Enhancement <!-- omit in toc -->
 
 - Make sure that you are using the latest version.
-- Read the [documentation][REF_INTERN_URL_README] carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search][REF_INTERN_URL_ISSUES] to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- Read the [documentation][REF_INTERN_FILE_MD_README] carefully and find out if the functionality is already covered, maybe by an individual configuration.
+- Perform a [search][REF_INTERN_URL_ISSUE_LIST] to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
 #### How Do I Submit a Good Enhancement Suggestion? <!-- omit in toc -->
 
-Enhancement suggestions are tracked as [issues][REF_INTERN_URL_ISSUES].
+Enhancement suggestions are tracked as [issues][REF_INTERN_URL_ISSUE_LIST].
 
 - Use a **clear and descriptive title** for the issue to identify the suggestion.
 - Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
@@ -226,32 +227,47 @@ The footer should include any information about **Breaking Changes** and is also
 
 A detailed explanation can be found in this [document][REF_INTERN_URL_COMMIT_MESSAGE_FORMAT].
 
+## Additional Resources
+
+- [README.md][REF_INTERN_FILE_MD_README] – For an overview of the project and
+  end-user documentation.
+- [Development Guidelines][REF_INTERN_FILE_MD_DEVELOPMENT] – For detailed information
+  on development, including explanations of package.json scripts and CI configuration.
+
 ## Attribution <!-- omit in toc -->
 
 This guide is based on the [contributing.md][REF_INTERN_URL_CONTRIBUTING_GENERATOR]!
 
 [Report a vulnerability][REF_INTERN_URL_VULNERABILITY]
 
-[REF_INTERN_URL_GIT]: { TPL^URL_GIT }
-[REF_INTERN_URL_CONTRIBUTING]: { TPL^URL_CONTRIBUTING }
-[REF_INTERN_URL_README]: { TPL^URL_README }
-[REF_INTERN_URL_CHANGELOG]: { TPL^URL_CHANGELOG }
-[REF_INTERN_URL_CODE_OF_CONDUCT]: { TPL^URL_CODE_OF_CONDUCT }
-[REF_INTERN_URL_LICENSE]: { TPL^URL_LICENSE }
-[REF_INTERN_URL_SECURITY]: { TPL^URL_SECURITY }
-[REF_INTERN_URL_ISSUES]: { TPL^URL_ISSUE }
-[REF_INTERN_URL_NEW_ISSUE]: { TPL^URL_ISSUE_NEW }
-[REF_INTERN_URL_PULLREQUEST]: { TPL^URL_PULLREQUEST }
-[REF_INTERN_URL_COMMITS]: { TPL^URL_COMMITS }
-[REF_INTERN_URL_VULNERABILITY]: { TPL^URL_VULNERABILITY }
-[REF_INTERN_URL_NEW_VULNERABILITY]: { TPL^URL_VULNERABILITY_NEW }
-[REF_INTERN_URL_ACTIONS]: { TPL^URL_ACTIONS }
-[REF_INTERN_URL_WORKFLOW_CODEQL]: { TPL^URL_WORKFLOW_CODEQL }
-[REF_INTERN_URL_WORKFLOW_CI]: { TPL^URL_WORKFLOW_CI }
 [REF_INTERN_EMAIL_ADDRESS_COD]: { TPL^EMAIL_ADDRESS_COD }
 [REF_INTERN_EMAIL_ADDRESS_OWNER]: { TPL^EMAIL_ADDRESS_OWNER }
 [REF_INTERN_EMAIL_ADDRESS_SECURITY]: { TPL^EMAIL_ADDRESS_SECURITY }
-[REF_INTERN_URL_NPMJS_PACKAGE]: { TPL^URL_NPMJS_PACKAGE }
+[REF_INTERN_FILE_MD_CHANGELOG]: { TPL^FILE_MD_CHANGELOG }
+[REF_INTERN_FILE_MD_CODE_OF_CONDUCT]: { TPL^FILE_MD_CODE_OF_CONDUCT }
+[REF_INTERN_FILE_MD_CONTRIBUTING]: { TPL^FILE_MD_CONTRIBUTING }
+[REF_INTERN_FILE_MD_DEVELOPMENT]: { TPL^FILE_MD_DEVELOPMENT }
+[REF_INTERN_FILE_MD_LICENSE]: { TPL^FILE_MD_LICENSE }
+[REF_INTERN_FILE_MD_README]: { TPL^FILE_MD_README }
+[REF_INTERN_FILE_MD_SECURITY]: { TPL^FILE_MD_SECURITY }
+[REF_INTERN_URL_ACTIONS]: { TPL^URL_ACTIONS }
 [REF_INTERN_URL_CODESTYLE]: { TPL^URL_CODESTYLE }
+[REF_INTERN_URL_COMMITS]: { TPL^URL_COMMITS }
 [REF_INTERN_URL_COMMIT_MESSAGE_FORMAT]: <https://www.conventionalcommits.org/en/v1.0.0/>
 [REF_INTERN_URL_CONTRIBUTING_GENERATOR]: <https://contributing.md/generator>
+[REF_INTERN_URL_GIT]: { TPL^URL_GIT }
+[REF_INTERN_URL_ISSUE_LIST]: { TPL^URL_ISSUE_LIST }
+[REF_INTERN_URL_ISSUE_NEW]: { TPL^URL_ISSUE_NEW }
+[REF_INTERN_URL_MD_CHANGELOG]: { TPL^URL_MD_CHANGELOG }
+[REF_INTERN_URL_MD_CODE_OF_CONDUCT]: { TPL^URL_MD_CODE_OF_CONDUCT }
+[REF_INTERN_URL_MD_CONTRIBUTING]: { TPL^URL_MD_CONTRIBUTING }
+[REF_INTERN_URL_MD_DEVELOPMENT]: { TPL^URL_MD_DEVELOPMENT }
+[REF_INTERN_URL_MD_LICENSE]: { TPL^URL_MD_LICENSE }
+[REF_INTERN_URL_MD_README]: { TPL^URL_MD_README }
+[REF_INTERN_URL_MD_SECURITY]: { TPL^URL_MD_SECURITY }
+[REF_INTERN_URL_NPMJS_PACKAGE]: { TPL^URL_NPMJS_PACKAGE }
+[REF_INTERN_URL_PULLREQUEST]: { TPL^URL_PULLREQUEST }
+[REF_INTERN_URL_VULNERABILITY]: { TPL^URL_VULNERABILITY }
+[REF_INTERN_URL_VULNERABILITY_NEW]: { TPL^URL_VULNERABILITY_NEW }
+[REF_INTERN_URL_WORKFLOW_CQAT]: { TPL^URL_WORKFLOW_CQAT }
+[REF_INTERN_URL_WORKFLOW_CODEQL]: { TPL^URL_WORKFLOW_CODEQL }
