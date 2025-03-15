@@ -27,25 +27,25 @@ You can clone this repository or download it as archive.
 Clone via SSH
 
 ```sh
-git clone git@github.com:DJBlackEagle/template_for_new_repository.git
+git clone git@github.com:DJBlackEagle/org-templates.git
 ```
 
 Clone via HTTPS
 
 ```sh
-git clone https://github.com/DJBlackEagle/template_for_new_repository.git
+git clone https://github.com/DJBlackEagle/org-templates.git
 ```
 
 Clone via GitHub CLI
 
 ```sh
-gh repo clone DJBlackEagle/template_for_new_repository
+gh repo clone DJBlackEagle/org-templates
 ```
 
 As Zip archive
 
 ```text
-https://github.com/DJBlackEagle/template_for_new_repository/archive/refs/heads/main.zip
+https://github.com/DJBlackEagle/org-templates/archive/refs/heads/main.zip
 ```
 
 ## Getting started
@@ -137,34 +137,43 @@ Some files, which have a package name, URL in there. For this, exists some templ
 
 List of the template variables:
 
-| Template Variable              | Example                                                                          | Description                                                                              |
-| ------------------------------ | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| { TPL^ASSIGNEE_DEPENDABOT }    | MyAccount                                                                        | The default assignee, then the dependabot makes a pull request.                          |
-| { TPL^ASSIGNEE_ISSUE }         | MyAccount                                                                        | The default assignee for new issues. It's stays in the issue template files.             |
-| { TPL^DATE_CURRENT_YEAR }      | 2025                                                                             | The current year (like for Copyright).                                                   |
-| { TPL^EMAIL_ADDRESS_COD }      | <test@localhost.local>                                                           | The e-mail address in 'Code of Conduct'.                                                 |
-| { TPL^EMAIL_ADDRESS_OWNER }    | <test@localhost.local>                                                           | The e-mail address of the owner of this project and repository.                          |
-| { TPL^EMAIL_ADDRESS_SECURITY } | <test@localhost.local>                                                           | The e-mail address for reporting security issues related to this project and repository. |
-| { TPL^EMAIL_NAME_COD }         | My name                                                                          | The e-mail address in 'Code of Conduct'.                                                 |
-| { TPL^EMAIL_NAME_SECURITY }    | My name                                                                          | The e-mail address for reporting security issues related to this project and repository. |
-| { TPL^PACKAGE_FULLNAME }       | @MyAccount/my-new-project                                                        | The full package name of this project.                                                   |
-| { TPL^PROJECT_OWNER_NAME }     | Max Mustermann                                                                   | The owner name of the project.                                                           |
-| { TPL^URL_ACTIONS }            | <https://localhost/MyAccount/my-new-project/actions>                             | The URL to the GitHub actions.                                                           |
-| { TPL^URL_CHANGELOG }          | <https://localhost/MyAccount/my-new-project/blob/main/CHANGELOG.md>              | The URL to the changelog.                                                                |
-| { TPL^URL_CODE_OF_CONDUCT }    | <https://localhost/MyAccount/my-new-project/blob/main/CODE_OF_CONDUCT.md>        | The URL to the 'Code of Conduct' file.                                                   |
-| { TPL^URL_CODESTYLE }          | <https://localhost/MyAccount/my-new-project>                                     | The URL to the Code-Style repository.                                                    |
-| { TPL^URL_COMMITS }            | <https://localhost/MyAccount/my-new-project/commits/main>                        | The URL to the commit of the GIT repository.                                             |
-| { TPL^URL_CONTRIBUTING }       | <https://localhost/MyAccount/my-new-project/blob/main/CONTRIBUTING.md>           | The URL to the contributing file.                                                        |
-| { TPL^URL_GIT }                | <https://localhost/MyAccount/my-new-project>                                     | The URL to the GIT repository.                                                           |
-| { TPL^URL_ISSUE }              | <https://localhost/MyAccount/my-new-project/issues>                              | The URL to the list of issues.                                                           |
-| { TPL^URL_ISSUE_NEW }          | <https://localhost/MyAccount/my-new-project/issues/new/choose>                   | The URL of creating a new issue.                                                         |
-| { TPL^URL_LICENSE }            | <https://localhost/MyAccount/my-new-project/blob/main/LICENSE>                   | The URL to the license file.                                                             |
-| { TPL^URL_NPMJS_PACKAGE }      | <https://www.npmjs.com/package/@djblackeagle/my-new-project>                     | Ther URL to the NPM package on npm.                                                      |
-| { TPL^URL_PULLREQUEST }        | <https://localhost/MyAccount/my-new-project/pulls>                               | The URL to the pull requests.                                                            |
-| { TPL^URL_README }             | <https://localhost/MyAccount/my-new-project/blob/main/README.md>                 | The URL to the readme.                                                                   |
-| { TPL^URL_SECURITY }           | <https://localhost/MyAccount/my-new-project/blob/main/SECURITY.md>               | The URL to the security file.                                                            |
-| { TPL^URL_VULNERABILITY }      | <https://localhost/MyAccount/my-new-project/security>                            | The URL to the vulnerability.                                                            |
-| { TPL^URL_VULNERABILITY_NEW }  | <https://localhost/MyAccount/my-new-project/security/advisories/new>             | The URL of creating a new vulnerability.                                                 |
-| { TPL^URL_WORKFLOW_CI }        | <https://localhost/MyAccount/my-new-project/actions/workflows/WORKFLOW_NAME.yml> | The GitHub workflow URL. WORKFLOW_NAME stays for the name of the workflow.               |
-| { TPL^URL_WORKFLOW_CODEQL }    | <https://localhost/MyAccount/my-new-project/actions/workflows/WORKFLOW_NAME.yml> | The GitHub workflow URL. WORKFLOW_NAME stays for the name of the workflow.               |
-| { TPL^USER_CODE_OWNER }        | @MyAccount                                                                       | The 'Code Owner' of the repository (full).                                               |
+| Template Variable                   | Example                                                                          | Description                                                                              |
+| ----------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| { TPL^ASSIGNEE_DEPENDABOT }         | MyAccount                                                                        | The default assignee, then the dependabot makes a pull request.                          |
+| { TPL^ASSIGNEE_ISSUE }              | MyAccount                                                                        | The default assignee for new issues. It's stays in the issue template files.             |
+| { TPL^DATE_CURRENT_YEAR }           | 2025                                                                             | The current year (like for Copyright).                                                   |
+| { TPL^EMAIL_ADDRESS_COD }           | <test@localhost.local>                                                           | The e-mail address in 'Code of Conduct'.                                                 |
+| { TPL^EMAIL_ADDRESS_OWNER }         | <test@localhost.local>                                                           | The e-mail address of the owner of this project and repository.                          |
+| { TPL^EMAIL_ADDRESS_SECURITY }      | <test@localhost.local>                                                           | The e-mail address for reporting security issues related to this project and repository. |
+| { TPL^EMAIL_NAME_COD }              | My name                                                                          | The e-mail address in 'Code of Conduct'.                                                 |
+| { TPL^EMAIL_NAME_SECURITY }         | My name                                                                          | The e-mail address for reporting security issues related to this project and repository. |
+| { TPL^FILE_MD_CHANGELOG }           | CHANGELOG.md                                                                     | The filename of the changelog.                                                           |
+| { TPL^FILE_MD_CODE_OF_CONDUCT }     | CODE_OF_CONDUCT.md                                                               | The filename of the 'Code of Conduct'.                                                   |
+| { TPL^FILE_MD_CONTRIBUTING }        | CONTRIBUTING.md                                                                  | The filename of the contributing.                                                        |
+| { TPL^FILE_MD_DEVELOPMENT }         | DEVELOPMENT.md                                                                   | The filename of the development.                                                         |
+| { TPL^FILE_MD_LICENSE }             | LICENSE.md                                                                       | The filename of the license.                                                             |
+| { TPL^FILE_MD_README }              | README.md                                                                        | The filename of the readme.                                                              |
+| { TPL^FILE_MD_SECURITY }            | SECURITY.md                                                                      | The filename of the security.                                                            |
+| { TPL^PACKAGE_FULLNAME }            | @MyAccount/my-new-project                                                        | The full package name of this project.                                                   |
+| { TPL^PACKAGE_FULLNAME_MINUSMINUS } | @MyAccount/my--new--project                                                      | The full package name of this project (if - exists, then do double --).                  |
+| { TPL^PROJECT_OWNER_NAME }          | Max Mustermann                                                                   | The owner name of the project.                                                           |
+| { TPL^URL_ACTIONS }                 | <https://localhost/MyAccount/my-new-project/actions>                             | The URL to the GitHub actions.                                                           |
+| { TPL^URL_CODESTYLE }               | <https://localhost/MyAccount/my-new-project>                                     | The URL to the Code-Style repository.                                                    |
+| { TPL^URL_COMMITS }                 | <https://localhost/MyAccount/my-new-project/commits/main>                        | The URL to the commit of the GIT repository.                                             |
+| { TPL^URL_GIT }                     | <https://localhost/MyAccount/my-new-project>                                     | The URL to the GIT repository.                                                           |
+| { TPL^URL_ISSUE_LIST }              | <https://localhost/MyAccount/my-new-project/issues>                              | The URL to the list of issues.                                                           |
+| { TPL^URL_ISSUE_NEW }               | <https://localhost/MyAccount/my-new-project/issues/new/choose>                   | The URL of creating a new issue.                                                         |
+| { TPL^URL_MD_CHANGELOG }            | <https://localhost/MyAccount/my-new-project/blob/main/CHANGELOG.md>              | The URL to the changelog.                                                                |
+| { TPL^URL_MD_CODE_OF_CONDUCT }      | <https://localhost/MyAccount/my-new-project/blob/main/CODE_OF_CONDUCT.md>        | The URL to the 'Code of Conduct' file.                                                   |
+| { TPL^URL_MD_CONTRIBUTING }         | <https://localhost/MyAccount/my-new-project/blob/main/CONTRIBUTING.md>           | The URL to the contributing file.                                                        |
+| { TPL^URL_MD_DEVELOPMENT }          | <https://localhost/MyAccount/my-new-project/blob/main/DEVELOPMENT.md>            | The URL to the development.                                                              |
+| { TPL^URL_MD_LICENSE }              | <https://localhost/MyAccount/my-new-project/blob/main/LICENSE.md>                | The URL to the license file.                                                             |
+| { TPL^URL_MD_README }               | <https://localhost/MyAccount/my-new-project/blob/main/README.md>                 | The URL to the readme.                                                                   |
+| { TPL^URL_MD_SECURITY }             | <https://localhost/MyAccount/my-new-project/blob/main/SECURITY.md>               | The URL to the security file.                                                            |
+| { TPL^URL_NPMJS_PACKAGE }           | <https://www.npmjs.com/package/@djblackeagle/my-new-project>                     | Ther URL to the NPM package on npm.                                                      |
+| { TPL^URL_PULLREQUEST }             | <https://localhost/MyAccount/my-new-project/pulls>                               | The URL to the pull requests.                                                            |
+| { TPL^URL_VULNERABILITY }           | <https://localhost/MyAccount/my-new-project/security>                            | The URL to the vulnerability.                                                            |
+| { TPL^URL_VULNERABILITY_NEW }       | <https://localhost/MyAccount/my-new-project/security/advisories/new>             | The URL of creating a new vulnerability.                                                 |
+| { TPL^URL_WORKFLOW_CODEQL }         | <https://localhost/MyAccount/my-new-project/actions/workflows/WORKFLOW_NAME.yml> | The GitHub workflow URL. WORKFLOW_NAME stays for the name of the workflow.               |
+| { TPL^URL_WORKFLOW_CQAT }           | <https://localhost/MyAccount/my-new-project/actions/workflows/WORKFLOW_NAME.yml> | The GitHub workflow URL. WORKFLOW_NAME stays for the name of the workflow.               |
+| { TPL^USER_CODE_OWNER }             | @MyAccount                                                                       | The 'Code Owner' of the repository (full).                                               |
