@@ -78,9 +78,6 @@
   color: e4ea8a
   description: 'Nice addition, maybe... someday...'
 
-- name: 'todo'
-  color: 5319e7
-  description: 'A todo issue.'
 - name: 'task'
   color: 5319e7
   description: 'A task issue.'
